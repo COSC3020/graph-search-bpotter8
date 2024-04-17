@@ -27,6 +27,12 @@ the function and run automatically when you commit through a GitHub action.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
+Answer:
+
+The worst case runtime for my implementation is $\Theta (E + N)$ where $E$ is the number of edges and $N$ is the number of nodes. 
+
+In the worst case scenario, the program would traverse all edges and all nodes in the graph to reach the target node from the starting node. In this worst case, the time complexity would need to consider the sum of the time it took to traverse all of the edges in the graph and all of the nodes in the graph.
+
 ## Bonus
 
 Implement and analyze breadth-first search.
