@@ -12,4 +12,4 @@ const testGraph = {
   F: []
 }
 
-jsc.assert(JSON.stringify(depthFirstSearch(testGraph, 'A', 'F')) == JSON.stringify(['A', 'C', 'D', 'F']))
+assert(JSON.stringify(depthFirstSearch(testGraph, 'A', 'F')) == JSON.stringify(['A', 'C', 'D', 'F']))
